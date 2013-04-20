@@ -1,0 +1,12 @@
+04-20 02:10:30.946: E/Trace(16717): error opening trace file: No such file or directory (2)
+04-20 02:10:31.086: E/(16717): <s3dReadConfigFile:75>: Can't open file for reading
+04-20 02:10:31.086: E/(16717): <s3dReadConfigFile:75>: Can't open file for reading
+04-20 02:10:31.667: E/Rajawali(16717): [rajawali.BaseObject3D] Material is null. Please add a material before adding a texture.
+04-20 02:10:31.677: E/AndroidRuntime(16717): FATAL EXCEPTION: GLThread 1038
+04-20 02:10:31.677: E/AndroidRuntime(16717): java.lang.RuntimeException: Material is null. Please add a material first.
+04-20 02:10:31.677: E/AndroidRuntime(16717): 	at rajawali.BaseObject3D.addTexture(BaseObject3D.java:327)
+04-20 02:10:31.677: E/AndroidRuntime(16717): 	at com.mydomain.wallpapers.mywallpaper.MyWallpaperRenderer.initScene(MyWallpaperRenderer.java:45)
+04-20 02:10:31.677: E/AndroidRuntime(16717): 	at rajawali.renderer.RajawaliRenderer.onSurfaceCreated(RajawaliRenderer.java:224)
+04-20 02:10:31.677: E/AndroidRuntime(16717): 	at com.mydomain.wallpapers.mywallpaper.MyWallpaperRenderer.onSurfaceCreated(MyWallpaperRenderer.java:80)
+04-20 02:10:31.677: E/AndroidRuntime(16717): 	at net.rbgrn.opengl.GLThread.guardedRun(GLThread.java:225)
+04-20 02:10:31.677: E/AndroidRuntime(16717): 	at net.rbgrn.opengl.GLThread.run(GLThread.java:93)
